@@ -4,13 +4,15 @@ import Footer from './Footer';
 import './App.css';
 
 const App = () => {
-	<div className="app-container">
-		<Header />
-		<main>
-			<h1>Welcome to Custom React App</h1>
-		</main>
-		<Footer />
-	</div>;
+	return (
+		<div className="app-container">
+			<Header />
+			<main>
+				<h1>Welcome to Custom React App</h1>
+			</main>
+			<Footer />
+		</div>
+	);
 };
 
 export default App;
