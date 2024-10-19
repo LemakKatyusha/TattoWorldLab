@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Імпортуйте Link
 import '../styles/header.css';
 import logo from '../resources/page1/Exclude (2) 1.svg';
 import profileIcon from '../resources/page1/Group 1.svg';
@@ -10,24 +11,26 @@ const Header = () => {
 				<div className="wrapcontainer">
 					<header className="head">
 						<div className="headerlogo">
-							<img className="logo" src={logo} alt="Логотип" />
+							<Link to="/page1">
+								<img className="logo" src={logo} alt="Логотип" />
+							</Link>
 						</div>
 						<nav className="navbar">
 							<ul className="list">
 								<li>
-									<a href="about.html">Про нас</a>
+									<Link to="/services">Наші послуги</Link>{' '}
 								</li>
 								<li>
-									<a href="services.html">Наші послуги</a>
+									<Link to="/about">Про нас</Link>
 								</li>
 								<li>
-									<a href="profile.html">
+									<Link to="/profile">
 										<img
 											className="profile-icon"
 											src={profileIcon}
 											alt="Профіль"
 										/>
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</nav>
