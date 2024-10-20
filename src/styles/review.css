@@ -1,0 +1,70 @@
+.content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.mod {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 600px;
+	padding: 20px;
+}
+
+.inputt {
+	position: relative;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.inputt input,
+.inputt textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ffff;
+	background-color: #3c3f46;
+	color: #ffff;
+	font-size: 16px;
+	text-align: center;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.inputt label {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	color: #aaaaaa;
+	font-size: 14px;
+	pointer-events: none;
+}
+
+.inputt textarea {
+	height: 100px;
+	resize: none;
+}
+
+.submit-btn {
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 16px;
+	border-color: #ffff;
+	background-color: transparent;
+	color: #ffff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+	border: 1px solid #ffff;
+	margin-left: auto;
+}
+
+.submit-btn:hover {
+	background-color: #ffffff8d;
+	color: #3c3f46;
+}
