@@ -1,0 +1,91 @@
+body,
+html {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+
+.contentr {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.modr {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	width: 50%;
+}
+h1 {
+	font-size: 40px;
+}
+.pr {
+	font-style: italic;
+	font-weight: 200;
+	margin-bottom: 50px;
+}
+.inputtr {
+	position: relative;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.inputtr input,
+.inputtr textarea {
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	border: 3px solid #ffff;
+	background-color: #3c3f46;
+	color: #ffff;
+	font-size: 16px;
+	text-align: center;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.inputtr label {
+	position: absolute;
+	left: 10px;
+	color: #aaaaaa;
+	font-size: 14px;
+}
+
+.inputtr textarea {
+	height: 250px;
+	text-align: center;
+	resize: none;
+	overflow-y: auto;
+}
+
+.inputtr input:focus,
+.inputtr textarea:focus {
+	border: 3px solid;
+}
+.submit-containerr {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.submitr {
+	padding: 10px;
+	background-color: rgba(172, 172, 172, 0.561);
+	border: 2px solid white;
+	border-radius: 10px;
+	cursor: pointer;
+	color: #ffff;
+}
+
+.submitr:hover {
+	background-color: #ffffff8d;
+	color: #3c3f46;
+}

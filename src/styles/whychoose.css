@@ -1,0 +1,69 @@
+body {
+	font-family: 'Ubuntu';
+}
+.wrapper {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.main2 {
+	padding: 50px 0;
+	background-color: #393e46;
+}
+.maintextp {
+	font-family: 'Ubuntu';
+	color: #aea1a1;
+}
+
+.whyall {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 30px;
+	flex-wrap: wrap;
+}
+h2 {
+	font-size: 50px;
+	color: #ffff;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.whyall,
+.whyall2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.whyall3,
+.whyall1,
+.whyall2,
+.whyall4 {
+	justify-content: space-between;
+	display: flex;
+	max-width: 500px;
+}
+
+.whyall3,
+.whyall1 {
+	margin-right: 40px;
+}
+.whyallp {
+	font-size: 35px;
+	color: #ffff;
+	font-weight: 600;
+	padding-bottom: 15px;
+	padding-top: 20px;
+	margin-left: 0;
+}
+
+.whyallp1 {
+	font-size: 20px;
+	color: #a5a7a8;
+}
+
+.imgwhy img {
+	max-width: 150px;
+	margin-right: 20px;
+	margin-top: 40px;
+}

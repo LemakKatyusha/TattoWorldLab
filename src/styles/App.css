@@ -1,0 +1,9 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.app-container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
