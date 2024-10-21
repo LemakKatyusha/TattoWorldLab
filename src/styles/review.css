@@ -1,32 +1,49 @@
-.content {
+body,
+html {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+
+.contentr {
 	width: 100%;
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
+	overflow: hidden;
 }
 
-.mod {
+.modr {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: 600px;
 	padding: 20px;
+	width: 50%;
 }
-
-.inputt {
+h1 {
+	font-size: 40px;
+}
+.pr {
+	font-style: italic;
+	font-weight: 200;
+	margin-bottom: 50px;
+}
+.inputtr {
 	position: relative;
 	width: 100%;
 	margin-bottom: 15px;
 }
 
-.inputt input,
-.inputt textarea {
+.inputtr input,
+.inputtr textarea {
 	width: 100%;
 	padding: 10px;
 	border-radius: 5px;
-	border: 1px solid #ffff;
+	border: 3px solid #ffff;
 	background-color: #3c3f46;
 	color: #ffff;
 	font-size: 16px;
@@ -35,7 +52,7 @@
 	outline: none;
 }
 
-.inputt label {
+.inputtr label {
 	position: absolute;
 	top: 50%;
 	left: 10px;
@@ -45,26 +62,31 @@
 	pointer-events: none;
 }
 
-.inputt textarea {
-	height: 100px;
-	resize: none;
+.inputtr textarea {
+	height: 250px;
+	text-align: center;
 }
 
-.submit-btn {
-	cursor: pointer;
-	font-weight: 500;
-	font-size: 16px;
-	border-color: #ffff;
-	background-color: transparent;
-	color: #ffff;
-	padding: 10px 20px;
+.inputtr input:focus,
+.inputtr textarea:focus {
+	border: 3px solid;
+}
+.submit-containerr {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.submitr {
+	padding: 10px;
+	background-color: rgba(172, 172, 172, 0.561);
+	border: 2px solid white;
 	border-radius: 5px;
-	transition: all 0.3s ease;
-	border: 1px solid #ffff;
-	margin-left: auto;
+	cursor: pointer;
+	color: #ffff;
 }
 
-.submit-btn:hover {
+.submitr:hover {
 	background-color: #ffffff8d;
 	color: #3c3f46;
 }

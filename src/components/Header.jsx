@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Імпортуйте Link
+import { Link } from 'react-router-dom';
 import '../styles/header.css';
 import logo from '../resources/page1/Exclude (2) 1.svg';
 import profileIcon from '../resources/page1/Group 1.svg';
@@ -24,7 +24,7 @@ const Header = () => {
 									<Link to="/about">Про нас</Link>
 								</li>
 								<li>
-									<Link to="/profile">
+									<Link to="/registr">
 										<img
 											className="profile-icon"
 											src={profileIcon}

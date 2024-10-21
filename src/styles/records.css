@@ -1,4 +1,4 @@
-.form {
+.formrs {
 	padding: 20px;
 	border-radius: 5px;
 	max-width: 1200px;
@@ -14,7 +14,7 @@
 	font-size: 15px;
 }
 
-.input {
+.inputtrs {
 	display: block;
 	width: 95%;
 	margin-bottom: 10px;
@@ -32,14 +32,14 @@
 	font-style: normal;
 }
 
-.name-surname {
+.name-surnamers {
 	display: flex;
 	gap: 30px;
 	height: 80px;
 	width: 100%;
 }
 
-.inputtt {
+.inputttrs {
 	width: calc(50% - 5px);
 	border: 2px solid;
 	border-color: #ffff;
@@ -52,14 +52,30 @@
 	font-style: normal;
 }
 
-.submit-container {
+.submit-containerrs {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	margin-top: 10px;
 }
-
-.submit {
+.inputrs {
+	display: block;
+	width: 95%;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: none;
+	border: 2px solid;
+	border-color: #ffff;
+	background-color: transparent;
+	outline: none;
+	margin-top: 20px;
+	height: 25px;
+	border-radius: 15px;
+	text-align: center;
+	color: #ffff;
+	font-style: normal;
+}
+.submitrs {
 	padding: 10px;
 	background-color: rgba(172, 172, 172, 0.561);
 	border: 2px solid white;
@@ -68,6 +84,6 @@
 	color: #ffff;
 }
 
-.submit:hover {
+.submitrs:hover {
 	background-color: #a39c9c;
 }
