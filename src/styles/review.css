@@ -42,7 +42,7 @@ h1 {
 .inputtr textarea {
 	width: 100%;
 	padding: 10px;
-	border-radius: 5px;
+	border-radius: 10px;
 	border: 3px solid #ffff;
 	background-color: #3c3f46;
 	color: #ffff;
@@ -54,17 +54,16 @@ h1 {
 
 .inputtr label {
 	position: absolute;
-	top: 50%;
 	left: 10px;
-	transform: translateY(-50%);
 	color: #aaaaaa;
 	font-size: 14px;
-	pointer-events: none;
 }
 
 .inputtr textarea {
 	height: 250px;
 	text-align: center;
+	resize: none;
+	overflow-y: auto;
 }
 
 .inputtr input:focus,
@@ -81,7 +80,7 @@ h1 {
 	padding: 10px;
 	background-color: rgba(172, 172, 172, 0.561);
 	border: 2px solid white;
-	border-radius: 5px;
+	border-radius: 10px;
 	cursor: pointer;
 	color: #ffff;
 }
