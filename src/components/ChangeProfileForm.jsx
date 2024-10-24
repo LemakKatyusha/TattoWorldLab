@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/changeprofileform.css';
 
-const ngeProfileForm = () => {
+const ChangeProfileForm = () => {
 	return (
 		<div className="form">
 			<div className="imgchange">
