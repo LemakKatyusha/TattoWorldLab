@@ -10,7 +10,7 @@ const MainImage = () => {
 		>
 			<div className="wrapper">
 				<div className="maintext">
-					<h1>
+					<h1 className="h1">
 						Ласкаво просимо в наш тату-салон, де шкіра стає полотном, а
 						творчість не має меж
 					</h1>

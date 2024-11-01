@@ -73,3 +73,40 @@
 p {
 	color: #ffff;
 }
+@media (max-width: 768px) {
+	.contentlog {
+		padding: 0px;
+	}
+
+	.modlog {
+		padding: 15px;
+		max-width: 70%;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	.inputtlog input,
+	.inputtlog textarea {
+		font-size: 14px;
+	}
+
+	.submit-btnlog {
+		font-size: 14px;
+		padding: 8px 16px;
+	}
+
+	.hrlog {
+		width: 60%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	.modlog {
+		max-width: 80%;
+	}
+
+	.inputtlog input,
+	.inputtlog textarea {
+		font-size: 15px;
+	}
+}

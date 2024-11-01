@@ -95,3 +95,40 @@ p {
 .login:active {
 	color: #afafaf;
 }
+@media (max-width: 768px) {
+	.contentreg {
+		padding: 0px;
+	}
+
+	.modreg {
+		padding: 15px;
+		max-width: 70%;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	.inputtreg input,
+	.inputtreg textarea {
+		font-size: 14px;
+	}
+
+	.submit-btnreg {
+		font-size: 14px;
+		padding: 8px 16px;
+	}
+
+	.hrreg {
+		width: 60%;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	.modreg {
+		max-width: 80%;
+	}
+
+	.inputtreg input,
+	.inputtreg textarea {
+		font-size: 15px;
+	}
+}

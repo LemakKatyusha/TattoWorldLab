@@ -10,7 +10,7 @@ const MainImage = () => {
 		>
 			<div className="wrapper">
 				<div className="maintext">
-					<h1>
+					<h1 className="h1">
 						Від класичних дизайнів до креативних та експериментальних проектів —
 						ми готові втілити вашу мрію про ідеальне тату
 					</h1>

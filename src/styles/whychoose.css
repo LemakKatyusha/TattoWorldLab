@@ -67,3 +67,44 @@ h2 {
 	margin-right: 20px;
 	margin-top: 40px;
 }
+@media (max-width: 768px) {
+	.wrapper {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0 20px;
+	}
+
+	h2 {
+		font-size: 36px;
+		padding-top: 5px;
+	}
+
+	.whyall {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.whyall1,
+	.whyall2,
+	.whyall3,
+	.whyall4 {
+		max-width: 100%;
+		justify-content: center;
+		margin: 5px 0;
+	}
+
+	.whyallp {
+		font-size: 20px;
+		text-align: center;
+		padding-top: 5px;
+	}
+
+	.whyallp1 {
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.imgwhy {
+		display: none;
+	}
+}

@@ -89,3 +89,28 @@ h1 {
 	background-color: #ffffff8d;
 	color: #3c3f46;
 }
+@media (max-width: 768px) {
+	.modr {
+		width: 80%;
+		padding-left: 0;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	.pr {
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+
+	.inputtr input,
+	.inputtr textarea {
+		font-size: 14px;
+	}
+
+	.submitr {
+		padding: 8px;
+		font-size: 14px;
+	}
+}
