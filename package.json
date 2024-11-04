@@ -36,11 +36,12 @@
 		"style-loader": "^4.0.0",
 		"svg-url-loader": "^8.0.0",
 		"terser-webpack-plugin": "^5.3.10",
-		"webpack": "^5.95.0",
+		"webpack": "^5.96.1",
 		"webpack-cli": "^5.1.4",
 		"webpack-dev-server": "^5.1.0"
 	},
 	"dependencies": {
+		"dotenv": "^16.4.5",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
 		"react-router-dom": "^6.27.0"
