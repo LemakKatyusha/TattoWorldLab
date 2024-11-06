@@ -1,0 +1,97 @@
+.tattoo-styles {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+}
+
+h3 {
+	color: #ffff;
+	font-size: 45px;
+}
+
+.tattoo-row {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	width: 100%;
+	max-width: 800px;
+}
+
+.tattoo-card {
+	border: 1px solid #aea1a1;
+	border-radius: 5px;
+	overflow: hidden;
+	height: 550px;
+}
+
+.tattoo-image {
+	width: calc(100% - 40px);
+	height: auto;
+	margin: 20px;
+}
+
+.tattoo-card h4 {
+	font-size: 30px;
+	color: #ffff;
+	margin-top: 0;
+	margin-left: 20px;
+	margin-bottom: 0;
+}
+
+.tattoo-card p {
+	font-size: 20px;
+	color: #a5a7a8;
+	margin-left: 20px;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	gap: 10px;
+}
+
+.pagination button {
+	padding: 10px 15px;
+	border: none;
+	background-color: #a5a7a8;
+	color: #1e1e1e;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.pagination button:disabled {
+	background-color: #a5a7a8;
+	cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+	background-color: #575757;
+}
+
+@media (max-width: 768px) {
+	.tattoo-row {
+		grid-template-columns: 1fr;
+		justify-items: center;
+		padding: 0 10px;
+	}
+
+	.tattoo-card {
+		width: 90%;
+		height: auto;
+	}
+
+	h3 {
+		font-size: 36px;
+	}
+
+	.tattoo-card h4 {
+		font-size: 24px;
+	}
+
+	.tattoo-card p {
+		font-size: 16px;
+	}
+}

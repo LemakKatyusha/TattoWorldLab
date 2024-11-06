@@ -1,0 +1,98 @@
+body {
+	background-color: #393e46;
+	font-family: 'Ubuntu';
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.head {
+	padding-top: 10px;
+	display: flex;
+	gap: 31px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #393e46;
+}
+
+.list {
+	display: flex;
+	color: #fbf8f8;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 30px;
+	gap: 44px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.list li:active,
+.list li:hover {
+	text-decoration: none;
+	transition: 0.5s;
+	font-size: 20px;
+}
+
+.list li {
+	padding-top: 12px;
+	text-decoration: none;
+}
+
+.list li a {
+	cursor: pointer;
+	color: #fbf8f8;
+	text-decoration: none;
+}
+.burger {
+	display: none;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.line {
+	width: 25px;
+	height: 3px;
+	background-color: #fbf8f8;
+	margin: 3px 0;
+	transition: 0.4s;
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navbar.open {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 120px;
+	left: 0;
+	background-color: transparent;
+	backdrop-filter: blur(10px);
+	width: 100%;
+	z-index: 1;
+}
+
+@media (max-width: 768px) {
+	.burger {
+		display: flex;
+	}
+
+	.list {
+		display: none;
+	}
+
+	.navbar.open .list {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		padding: 5px 0;
+		text-align: center;
+	}
+}

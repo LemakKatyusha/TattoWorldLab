@@ -1,0 +1,110 @@
+body {
+	font-family: 'Ubuntu';
+}
+.wrapper {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.main2 {
+	padding: 50px 0;
+	background-color: #393e46;
+}
+.maintextp {
+	font-family: 'Ubuntu';
+	color: #aea1a1;
+}
+
+.whyall {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 30px;
+	flex-wrap: wrap;
+}
+h2 {
+	font-size: 50px;
+	color: #ffff;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.whyall,
+.whyall2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.whyall3,
+.whyall1,
+.whyall2,
+.whyall4 {
+	justify-content: space-between;
+	display: flex;
+	max-width: 500px;
+}
+
+.whyall3,
+.whyall1 {
+	margin-right: 40px;
+}
+.whyallp {
+	font-size: 35px;
+	color: #ffff;
+	font-weight: 600;
+	padding-bottom: 15px;
+	padding-top: 20px;
+	margin-left: 0;
+}
+
+.whyallp1 {
+	font-size: 20px;
+	color: #a5a7a8;
+}
+
+.imgwhy img {
+	max-width: 150px;
+	margin-right: 20px;
+	margin-top: 40px;
+}
+@media (max-width: 768px) {
+	.wrapper {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0 20px;
+	}
+
+	h2 {
+		font-size: 36px;
+		padding-top: 5px;
+	}
+
+	.whyall {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.whyall1,
+	.whyall2,
+	.whyall3,
+	.whyall4 {
+		max-width: 100%;
+		justify-content: center;
+		margin: 5px 0;
+	}
+
+	.whyallp {
+		font-size: 20px;
+		text-align: center;
+		padding-top: 5px;
+	}
+
+	.whyallp1 {
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.imgwhy {
+		display: none;
+	}
+}
