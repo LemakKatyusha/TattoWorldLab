@@ -89,19 +89,52 @@ h1 {
 	background-color: #ffffff8d;
 	color: #3c3f46;
 }
+.popup-message {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #292d33;
+	color: white;
+	padding: 30px 50px;
+	border-radius: 5px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+	font-size: 1.2rem;
+	animation: fade-in-out 3s forwards;
+	text-align: center;
+	z-index: 9999;
+}
+
+@keyframes fade-in-out {
+	0% {
+		opacity: 0;
+	}
+	10% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
 @media (max-width: 768px) {
+	.contentr {
+		padding: 0;
+	}
 	.modr {
 		width: 80%;
-		padding-left: 0;
+		padding: 10px;
 	}
 
 	h1 {
-		font-size: 30px;
+		font-size: 28px;
 	}
 
 	.pr {
-		font-size: 14px;
-		margin-bottom: 30px;
+		font-size: 10px;
+		margin-bottom: 15px;
 	}
 
 	.inputtr input,
@@ -109,8 +142,8 @@ h1 {
 		font-size: 14px;
 	}
 
-	.submitr {
-		padding: 8px;
-		font-size: 14px;
+	.popup-message {
+		width: 90%;
+		padding: 15px;
 	}
 }

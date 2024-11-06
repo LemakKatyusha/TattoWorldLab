@@ -87,3 +87,32 @@
 .submitrs:hover {
 	background-color: #a39c9c;
 }
+.popup-message {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #292d33;
+	color: white;
+	padding: 30px 50px;
+	border-radius: 5px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+	font-size: 1.2rem;
+	animation: fade-in-out 3s forwards;
+	text-align: center;
+}
+
+@keyframes fade-in-out {
+	0% {
+		opacity: 0;
+	}
+	10% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
